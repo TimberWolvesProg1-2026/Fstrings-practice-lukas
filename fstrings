@@ -1,0 +1,31 @@
+name = input("What is your name? ")
+food = input("What is your favorite food? ")
+print(f"Hello {name}! I hear you like {food}!")
+
+print("-" * 30)
+
+
+num1_str = input("Enter first number: ")
+num2_str = input("Enter second number: ")
+
+
+num1 = int(num1_str)
+num2 = int(num2_str)
+
+print(f"{num1} + {num2} = {num1 + num2}")
+print(f"{num1} - {num2} = {num1 - num2}")
+print(f"{num1} * {num2} = {num1 * num2}")
+
+print("-" * 30)
+
+
+name_lower = name.lower()
+print(f"Title case: {name_lower.title()}")
+print(f"Uppercase: {name_lower.upper()}")
+
+print("-" * 30)
+
+value = 1234567.89123
+
+
+print(f"Formatted with commas and 2 decimals: {value:,.2f}")
